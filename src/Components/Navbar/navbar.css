@@ -1,0 +1,12 @@
+.nav-option li {
+  padding: 2px 4px;
+  border-bottom: 2px solid transparent;
+  transition: color, margin-bottom 0.2s ease;
+  color: rgb(103, 103, 103);
+  margin-bottom: -2px;
+}
+.nav-option li:hover {
+  /* border-bottom: 2px solid #0ea5e9; */
+  color: #0ea5e9;
+  /* margin-bottom: 2px; */
+}
