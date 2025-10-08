@@ -8,6 +8,7 @@ import ErrorPage from "./Components/ErrorPage/ErrorPage";
 import Home from "./Components/Home/Home";
 import AllApps from "./Components/AllApps/AllApps";
 import Details from "./Components/Details/Details";
+import Installation from "./Components/Installation/Installation";
 
 const router = createBrowserRouter([
   {
@@ -25,7 +26,8 @@ const router = createBrowserRouter([
         Component: AllApps,
       },
       {
-        // path: "/installation",
+        path: "/installation",
+        Component: Installation,
       },
       {
         path: "/details/:id",

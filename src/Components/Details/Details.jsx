@@ -5,15 +5,42 @@ import iconDownloads from "../../assets/icon-downloads.png";
 import iconRating from "../../assets/icon-ratings.png";
 import iconReview from "../../assets/icon-review.png";
 import Rechart from "../Rechart/Rechart";
+import NotFound from "../NotFound/NotFound";
+import { toast } from "react-toastify";
 
 const Details = () => {
-  const params = useParams();
-  const id = parseInt(params.id);
+  const { id } = useParams();
+  const appId = parseInt(id);
   const [allApps, setAllApps] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [isInstalled, setIsInstalled] = useState(false);
 
-  // ✅ Store to localStorage safely
-  const setInstalled = (id) => {
+  useEffect(() => {
+    fetch("/data.json")
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to fetch data");
+        return res.json();
+      })
+      .then((json) => setAllApps(json))
+      .finally(() => setLoading(false));
+  }, []);
+
+  useEffect(() => {
+    const installedRaw = localStorage.getItem("installed");
+    try {
+      const installed = installedRaw ? JSON.parse(installedRaw) : [];
+      if (Array.isArray(installed) && installed.includes(appId)) {
+        setIsInstalled(true);
+      }
+    } catch {
+      setIsInstalled(false);
+    }
+  }, [appId]);
+
+  const handleInstall = (id) => {
+    toast.success("App Installed Successfully", {
+      position: "top-center",
+    });
     const raw = localStorage.getItem("installed");
     let installed = [];
 
@@ -27,44 +54,23 @@ const Details = () => {
     if (!installed.includes(id)) {
       installed.push(id);
       localStorage.setItem("installed", JSON.stringify(installed));
+      setIsInstalled(true);
     }
   };
 
-  // ✅ Fetch data
-  useEffect(() => {
-    fetch("/data.json")
-      .then((res) => {
-        if (!res.ok) throw new Error("Failed to fetch data");
-        return res.json();
-      })
-      .then((json) => setAllApps(json))
-      .finally(() => setLoading(false));
-  }, []);
-
   if (loading) return <Loading />;
 
-  const app = allApps.find((a) => a.id === id);
-  if (!app) return <p className="p-8 text-center">App not found</p>;
-
-  // ✅ Check directly from localStorage
-  const installedRaw = localStorage.getItem("installed");
-  let installedApps = [];
-  try {
-    installedApps = installedRaw ? JSON.parse(installedRaw) : [];
-    if (!Array.isArray(installedApps)) installedApps = [installedApps];
-  } catch {
-    installedApps = [];
-  }
-
-  const isInstalled = installedApps.includes(id);
+  const app = allApps.find((a) => a.id === appId);
+  if (!app) return <NotFound />;
 
   return (
     <div className="bg-gray-100 px-4">
       <div className="container mx-auto py-8 border-b border-gray-300">
-        <div className="flex gap-8">
+        <div className="md:flex gap-8">
           <div className="bg-white w-fit aspect-square p-4 rounded-lg">
             <img className="w-60" src={app.image} alt="" />
           </div>
+
           <div className="flex-grow flex flex-col justify-between">
             <div>
               <h3 className="text-3xl font-semibold">{app.title}</h3>
@@ -93,7 +99,7 @@ const Details = () => {
             </div>
 
             <button
-              onClick={() => setInstalled(app.id)}
+              onClick={() => handleInstall(app.id)}
               disabled={isInstalled}
               className={`w-fit px-4 py-1.5 rounded-sm text-white text-sm my-4 
               ${

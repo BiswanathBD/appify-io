@@ -1,5 +1,5 @@
 import React from "react";
-import { Navigate } from "react-router";
+import { Link, Navigate } from "react-router";
 import notFound from "../../assets/not_found.png";
 
 const NotFound = () => {
@@ -21,6 +21,7 @@ const NotFound = () => {
           >
             Go Back!
           </button>
+
           <Link to={"/"}>
             <button className="px-4 py-2 bg-indigo-600 rounded-sm">Home</button>
           </Link>

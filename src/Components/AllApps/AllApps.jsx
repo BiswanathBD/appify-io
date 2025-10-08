@@ -16,13 +16,13 @@ const AllApps = () => {
       .then((json) => setAllApps(json))
       .finally(() => setLoading(false));
   }, []);
-  if (loading) return <Loading />;
 
   const filteredApps = searchItems
     ? allApps.filter((app) =>
         app.title.toLowerCase().includes(searchItems.toLowerCase())
       )
     : allApps;
+  if (loading) return <Loading />;
 
   return (
     <div className="bg-gray-100 py-16 px-4">
@@ -33,7 +33,9 @@ const AllApps = () => {
         </p>
 
         <div className="flex justify-between items-center mb-4">
-          <p className="text-xl font-semibold">({filteredApps.length}) App Found</p>
+          <p className="text-xl font-semibold">
+            ({filteredApps.length}) App Found
+          </p>
           <input
             onChange={(e) => setSearchItems(e.target.value)}
             type="search"
