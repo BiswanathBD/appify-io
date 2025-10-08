@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "https://i.ibb.co/6t1g5s5/sky-explorer.png",
+    "image": "https://img.icons8.com/?size=1200&id=tqP4CSFqqdNr&format=png",
     "title": "Sky Explorer",
     "companyName": "SkyTech Studios",
     "description": "Embark on a breathtaking journey through the skies in this immersive flight simulator.",
@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "image": "https://i.ibb.co/6t1g5s5/fittrack-pro.png",
+    "image": "https://img.icons8.com/?size=96&id=DjxLmZ1Zqncw&format=png",
     "title": "FitTrack Pro",
     "companyName": "Healthify Inc.",
     "description": "Your personal fitness companion to track workouts, meals, and progress.",
@@ -37,7 +37,7 @@
   },
   {
     "id": 3,
-    "image": "https://i.ibb.co/6t1g5s5/pixel-painter.png",
+    "image": "https://img.icons8.com/?size=96&id=Xwqu8cUREfko&format=png",
     "title": "Pixel Painter",
     "companyName": "Artistic Minds",
     "description": "A creative drawing app with a variety of brushes and tools.",
@@ -55,7 +55,7 @@
   },
   {
     "id": 4,
-    "image": "https://i.ibb.co/6t1g5s5/taskmaster.png",
+    "image": "https://img.icons8.com/?size=96&id=11848&format=png",
     "title": "TaskMaster",
     "companyName": "Productivity Plus",
     "description": "Organize your tasks and boost productivity with this intuitive app.",
@@ -73,7 +73,7 @@
   },
   {
     "id": 5,
-    "image": "https://i.ibb.co/6t1g5s5/photosnap.png",
+    "image": "https://img.icons8.com/?size=96&id=20859&format=png",
     "title": "PhotoSnap",
     "companyName": "SnapTech",
     "description": "Capture and edit photos with advanced filters and effects.",
@@ -91,7 +91,7 @@
   },
   {
     "id": 6,
-    "image": "https://i.ibb.co/6t1g5s5/weathernow.png",
+    "image": "https://img.icons8.com/?size=160&id=zJJ51w5xgKWA&format=png",
     "title": "WeatherNow",
     "companyName": "ClimateTech",
     "description": "Get real-time weather updates and forecasts at your fingertips.",
@@ -109,7 +109,7 @@
   },
   {
     "id": 7,
-    "image": "https://i.ibb.co/6t1g5s5/newsflash.png",
+    "image": "https://img.icons8.com/?size=96&id=tgRqDvvOOuEF&format=png",
     "title": "NewsFlash",
     "companyName": "MediaCorp",
     "description": "Stay updated with the latest news from around the world.",
@@ -127,7 +127,7 @@
   },
   {
     "id": 8,
-    "image": "https://i.ibb.co/6t1g5s5/gamezone.png",
+    "image": "https://img.icons8.com/?size=96&id=68368&format=png",
     "title": "GameZone",
     "companyName": "PlayTech",
     "description": "Dive into a world of exciting games and challenges.",
@@ -145,7 +145,7 @@
   },
   {
     "id": 9,
-    "image": "https://i.ibb.co/6t1g5s5/shopsmart.png",
+    "image": "https://img.icons8.com/?size=96&id=18901&format=png",
     "title": "ShopSmart",
     "companyName": "RetailTech",
     "description": "Find the best deals and discounts from your favorite stores.",
@@ -163,7 +163,7 @@
   },
   {
     "id": 10,
-    "image": "https://i.ibb.co/6t1g5s5/musicwave.png",
+    "image": "https://img.icons8.com/?size=96&id=81TSi6Gqk0tm&format=png",
     "title": "MusicWave",
     "companyName": "SoundTech",
     "description": "Stream your favorite music and discover new artists.",
@@ -181,7 +181,7 @@
   },
   {
     "id": 11,
-    "image": "https://i.ibb.co/6t1g5s5/travelmate.png",
+    "image": "https://img.icons8.com/?size=96&id=1xLQxmxqHkqV&format=png",
     "title": "TravelMate",
     "companyName": "JourneyTech",
     "description": "Plan your trips and explore new destinations.",
@@ -199,7 +199,7 @@
   },
   {
     "id": 12,
-    "image": "https://i.ibb.co/6t1g5s5/notemaster.png",
+    "image": "https://img.icons8.com/?size=96&id=E1Io1QTAzIaF&format=png",
     "title": "NoteMaster",
     "companyName": "Productivity Plus",
     "description": "Take notes and organize your thoughts effortlessly.",
@@ -217,7 +217,7 @@
   },
   {
     "id": 13,
-    "image": "https://i.ibb.co/6t1g5s5/mindboost.png",
+    "image": "https://img.icons8.com/?size=128&id=eGc97b6eA0zS&format=png",
     "title": "MindBoost",
     "companyName": "BrainyApps",
     "description": "Train your mind with puzzles and cognitive exercises.",
@@ -235,7 +235,7 @@
   },
   {
     "id": 14,
-    "image": "https://i.ibb.co/6t1g5s5/foodie.png",
+    "image": "https://img.icons8.com/?size=96&id=122657&format=png",
     "title": "Foodie",
     "companyName": "EatWell Inc.",
     "description": "Discover recipes, restaurants, and cooking tips all in one place.",
@@ -253,7 +253,7 @@
   },
   {
     "id": 15,
-    "image": "https://i.ibb.co/6t1g5s5/healthplus.png",
+    "image": "https://img.icons8.com/?size=96&id=14799&format=png",
     "title": "HealthPlus",
     "companyName": "WellnessCorp",
     "description": "Monitor your health stats and get personalized insights.",
@@ -271,7 +271,7 @@
   },
   {
     "id": 16,
-    "image": "https://i.ibb.co/6t1g5s5/learnify.png",
+    "image": "https://img.icons8.com/?size=96&id=vo1XcGH8QAag&format=png",
     "title": "Learnify",
     "companyName": "EduTech",
     "description": "Interactive lessons and quizzes to learn new skills quickly.",
@@ -289,7 +289,7 @@
   },
   {
     "id": 17,
-    "image": "https://i.ibb.co/6t1g5s5/smartwallet.png",
+    "image": "https://img.icons8.com/?size=96&id=13013&format=png",
     "title": "SmartWallet",
     "companyName": "FinTech Solutions",
     "description": "Manage your expenses, budgets, and payments all in one app.",
@@ -307,7 +307,7 @@
   },
   {
     "id": 18,
-    "image": "https://i.ibb.co/6t1g5s5/funflix.png",
+    "image": "https://img.icons8.com/?size=96&id=63242&format=png",
     "title": "FunFlix",
     "companyName": "StreamCorp",
     "description": "Watch movies, TV shows, and exclusive content anytime.",
@@ -325,7 +325,7 @@
   },
   {
     "id": 19,
-    "image": "https://i.ibb.co/6t1g5s5/rideeasy.png",
+    "image": "https://img.icons8.com/?size=100&id=ebzNEiNA4sQ6&format=png",
     "title": "RideEasy",
     "companyName": "TransitTech",
     "description": "Book rides and track transportation conveniently.",
@@ -343,7 +343,7 @@
   },
   {
     "id": 20,
-    "image": "https://i.ibb.co/6t1g5s5/gardenplus.png",
+    "image": "https://img.icons8.com/?size=96&id=23042&format=png",
     "title": "GardenPlus",
     "companyName": "NatureApps",
     "description": "Learn gardening tips and track plant growth with ease.",
