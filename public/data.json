@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/6t1g5s5/sky-explorer.png",
+    "title": "Sky Explorer",
+    "companyName": "SkyTech Studios",
+    "description": "Embark on a breathtaking journey through the skies in this immersive flight simulator.",
+    "size": 150,
+    "reviews": "120K",
+    "ratingAvg": 4.7,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 35000 },
+      { "name": "5 star", "count": 80000 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/6t1g5s5/fittrack-pro.png",
+    "title": "FitTrack Pro",
+    "companyName": "Healthify Inc.",
+    "description": "Your personal fitness companion to track workouts, meals, and progress.",
+    "size": 120,
+    "reviews": "95K",
+    "ratingAvg": 4.5,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 64000 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/6t1g5s5/pixel-painter.png",
+    "title": "Pixel Painter",
+    "companyName": "Artistic Minds",
+    "description": "A creative drawing app with a variety of brushes and tools.",
+    "size": 80,
+    "reviews": "85K",
+    "ratingAvg": 4.8,
+    "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 60000 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/6t1g5s5/taskmaster.png",
+    "title": "TaskMaster",
+    "companyName": "Productivity Plus",
+    "description": "Organize your tasks and boost productivity with this intuitive app.",
+    "size": 60,
+    "reviews": "70K",
+    "ratingAvg": 4.3,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 38000 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/6t1g5s5/photosnap.png",
+    "title": "PhotoSnap",
+    "companyName": "SnapTech",
+    "description": "Capture and edit photos with advanced filters and effects.",
+    "size": 90,
+    "reviews": "95K",
+    "ratingAvg": 4.6,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 35000 },
+      { "name": "5 star", "count": 60000 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/6t1g5s5/weathernow.png",
+    "title": "WeatherNow",
+    "companyName": "ClimateTech",
+    "description": "Get real-time weather updates and forecasts at your fingertips.",
+    "size": 70,
+    "reviews": "80K",
+    "ratingAvg": 4.4,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 42000 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co/6t1g5s5/newsflash.png",
+    "title": "NewsFlash",
+    "companyName": "MediaCorp",
+    "description": "Stay updated with the latest news from around the world.",
+    "size": 110,
+    "reviews": "90K",
+    "ratingAvg": 4.2,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 27000 },
+      { "name": "5 star", "count": 55000 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co/6t1g5s5/gamezone.png",
+    "title": "GameZone",
+    "companyName": "PlayTech",
+    "description": "Dive into a world of exciting games and challenges.",
+    "size": 130,
+    "reviews": "95K",
+    "ratingAvg": 4.9,
+    "downloads": "8M",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 89000 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co/6t1g5s5/shopsmart.png",
+    "title": "ShopSmart",
+    "companyName": "RetailTech",
+    "description": "Find the best deals and discounts from your favorite stores.",
+    "size": 95,
+    "reviews": "88K",
+    "ratingAvg": 4.3,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 54000 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co/6t1g5s5/musicwave.png",
+    "title": "MusicWave",
+    "companyName": "SoundTech",
+    "description": "Stream your favorite music and discover new artists.",
+    "size": 80,
+    "reviews": "95K",
+    "ratingAvg": 4.7,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 35000 },
+      { "name": "5 star", "count": 60000 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co/6t1g5s5/travelmate.png",
+    "title": "TravelMate",
+    "companyName": "JourneyTech",
+    "description": "Plan your trips and explore new destinations.",
+    "size": 100,
+    "reviews": "92K",
+    "ratingAvg": 4.6,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 45000 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co/6t1g5s5/notemaster.png",
+    "title": "NoteMaster",
+    "companyName": "Productivity Plus",
+    "description": "Take notes and organize your thoughts effortlessly.",
+    "size": 70,
+    "reviews": "85K",
+    "ratingAvg": 4.4,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 42000 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co/6t1g5s5/mindboost.png",
+    "title": "MindBoost",
+    "companyName": "BrainyApps",
+    "description": "Train your mind with puzzles and cognitive exercises.",
+    "size": 65,
+    "reviews": "78K",
+    "ratingAvg": 4.5,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co/6t1g5s5/foodie.png",
+    "title": "Foodie",
+    "companyName": "EatWell Inc.",
+    "description": "Discover recipes, restaurants, and cooking tips all in one place.",
+    "size": 85,
+    "reviews": "80K",
+    "ratingAvg": 4.6,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 47000 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co/6t1g5s5/healthplus.png",
+    "title": "HealthPlus",
+    "companyName": "WellnessCorp",
+    "description": "Monitor your health stats and get personalized insights.",
+    "size": 90,
+    "reviews": "88K",
+    "ratingAvg": 4.7,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 27000 },
+      { "name": "5 star", "count": 56000 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://i.ibb.co/6t1g5s5/learnify.png",
+    "title": "Learnify",
+    "companyName": "EduTech",
+    "description": "Interactive lessons and quizzes to learn new skills quickly.",
+    "size": 100,
+    "reviews": "82K",
+    "ratingAvg": 4.5,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 54000 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://i.ibb.co/6t1g5s5/smartwallet.png",
+    "title": "SmartWallet",
+    "companyName": "FinTech Solutions",
+    "description": "Manage your expenses, budgets, and payments all in one app.",
+    "size": 95,
+    "reviews": "90K",
+    "ratingAvg": 4.4,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 54000 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://i.ibb.co/6t1g5s5/funflix.png",
+    "title": "FunFlix",
+    "companyName": "StreamCorp",
+    "description": "Watch movies, TV shows, and exclusive content anytime.",
+    "size": 130,
+    "reviews": "85K",
+    "ratingAvg": 4.6,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 47000 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://i.ibb.co/6t1g5s5/rideeasy.png",
+    "title": "RideEasy",
+    "companyName": "TransitTech",
+    "description": "Book rides and track transportation conveniently.",
+    "size": 90,
+    "reviews": "78K",
+    "ratingAvg": 4.5,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://i.ibb.co/6t1g5s5/gardenplus.png",
+    "title": "GardenPlus",
+    "companyName": "NatureApps",
+    "description": "Learn gardening tips and track plant growth with ease.",
+    "size": 85,
+    "reviews": "80K",
+    "ratingAvg": 4.7,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 47000 }
+    ]
+  }
+]

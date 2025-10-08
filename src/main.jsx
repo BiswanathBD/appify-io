@@ -4,18 +4,27 @@ import "./index.css";
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import Routes from "./Components/Routes/Routes";
-import Hero from "./Components/Hero/Hero";
 import ErrorPage from "./Components/ErrorPage/ErrorPage";
+import Home from "./Components/Home/Home";
+import AllApps from "./Components/AllApps/AllApps";
 
 const router = createBrowserRouter([
   {
     path: "/",
     Component: Routes,
-    errorElement: <ErrorPage/>,
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
-        Component: Hero,
+        path: "/",
+        Component: Home,
+      },
+      {
+        path: "/apps",
+        Component: AllApps,
+      },
+      {
+        // path: "/installation",
       },
     ],
   },
