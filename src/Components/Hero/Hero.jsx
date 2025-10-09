@@ -23,13 +23,13 @@ const Hero = () => {
         </p>
 
         <div className="flex flex-wrap justify-center gap-8 mt-8 store">
-          <Link>
+          <Link to={"https://play.google.com"} target="_blank">
             <button>
               <img className="w-6" src={playStoreImg} alt="" />
               <span>Google Play</span>
             </button>
           </Link>
-          <Link>
+          <Link to={"https://www.apple.com/app-store/"} target="_blank">
             <button>
               <img className="w-7" src={appStoreImg} alt="" />
               <span>App Store</span>

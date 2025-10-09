@@ -10,6 +10,7 @@ const Installation = () => {
   const [allApps, setAllApps] = useState([]);
   const [installedApps, setInstalledApps] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [sortOrder, setSortOrder] = useState("disable");
 
   const installed = useMemo(() => {
     const installedRaw = localStorage.getItem("installed");
@@ -23,13 +24,29 @@ const Installation = () => {
         return res.json();
       })
       .then((json) => setAllApps(json))
-      .finally(() => setLoading(false));
+      .finally(() => {
+        setTimeout(() => {
+          setLoading(false);
+        }, 300);
+      });
   }, []);
 
   useEffect(() => {
     const filtered = allApps.filter((app) => installed.includes(app.id));
     setInstalledApps(filtered);
   }, [allApps, installed]);
+
+  const handleSortChange = (e) => {
+    const value = e.target.value;
+    setSortOrder(value);
+
+    setInstalledApps((prev) => {
+      const sorted = [...prev];
+      if (value === "1") sorted.sort((a, b) => a.size - b.size);
+      else if (value === "2") sorted.sort((a, b) => b.size - a.size);
+      return sorted;
+    });
+  };
 
   const handleDelete = (id) => {
     Swal.fire({
@@ -48,9 +65,7 @@ const Installation = () => {
         localStorage.setItem("installed", JSON.stringify(updatedInstalled));
 
         setInstalledApps((prev) => prev.filter((app) => app.id !== id));
-        toast.error("App Uninstalled", {
-          position: "top-center",
-        });
+        toast.error("App Uninstalled");
       }
     });
   };
@@ -70,7 +85,11 @@ const Installation = () => {
             ({installedApps.length}) App Found
           </p>
           <div className="custom-select-wrapper">
-            <select className="custom-select text-sm">
+            <select
+              className="custom-select text-sm"
+              value={sortOrder}
+              onChange={handleSortChange}
+            >
               <option value="disable">Sort By Size</option>
               <option value="1">Low to High</option>
               <option value="2">High to Low</option>

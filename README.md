@@ -1,16 +1,25 @@
-# React + Vite
+# Appify.io
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Demo:** [https://appify-io.netlify.app](https://appify-io.netlify.app)
 
-Currently, two official plugins are available:
+## Description
+Appify.io is a web application that showcases a collection of mobile applications developed by our team. Users can explore apps, search for specific ones, view trending applications, and manage their installed apps with features like installation, uninstallation, and sorting. The platform is designed for a seamless and interactive experience, providing a clean and responsive UI for both desktop and mobile users.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Browse all apps with detailed information.
+- Search apps with live results and a loader.
+- Manage installed apps: uninstall and sort by size.
+- Responsive design for mobile and desktop.
+- Interactive navigation with active state highlighting.
+- Smooth loading transitions across pages.
 
-## React Compiler
+## Technologies
+- **Frontend:** React.js, Tailwind CSS, React Icons
+- **Routing & Navigation:** React Router
+- **State Management:** React Hooks (`useState`, `useEffect`, `useMemo`)
+- **Data Handling:** JSON data fetch
+- **Notifications & Alerts:** SweetAlert2, React Toastify
+- **Deployment:** Netlify
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Live Link
+[https://appify-io.netlify.app](https://appify-io.netlify.app)

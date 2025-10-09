@@ -10,7 +10,7 @@ import { toast } from "react-toastify";
 
 const Details = () => {
   const { id } = useParams();
-  const appId = parseInt(id);
+  const appId = Number(id);
   const [allApps, setAllApps] = useState([]);
   const [loading, setLoading] = useState(true);
   const [isInstalled, setIsInstalled] = useState(false);
@@ -38,9 +38,7 @@ const Details = () => {
   }, [appId]);
 
   const handleInstall = (id) => {
-    toast.success("App Installed Successfully", {
-      position: "top-center",
-    });
+    toast.success("App Installed Successfully");
     const raw = localStorage.getItem("installed");
     let installed = [];
 
@@ -118,7 +116,7 @@ const Details = () => {
       <Rechart ratings={app.ratings} />
 
       <div className="container mx-auto px-4 border-t border-gray-300 py-8">
-        <p className="mb-4 text-xl font-bold">Description</p>
+        <p className="mb-2 text-xl font-bold">Description</p>
         <p className="text-gray-500">{app.description}</p>
       </div>
     </div>

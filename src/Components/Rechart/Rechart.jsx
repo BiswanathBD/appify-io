@@ -14,7 +14,7 @@ const Rechart = ({ ratings }) => {
   const data = [...ratings].reverse();
 
   return (
-    <div className="text-xs h-60 container mx-auto px-4">
+    <div className="text-xs h-60 container mx-auto px-4 pb-4">
       <h3 className="text-xl font-semibold mt-4 ml-10">Ratings</h3>
       <ResponsiveContainer>
         <BarChart
@@ -22,10 +22,15 @@ const Rechart = ({ ratings }) => {
           layout="vertical"
           margin={{ top: 10, right: 100, left: 20, bottom: 20 }}
         >
-          <XAxis type="number" />
-          <YAxis type="category" dataKey="name"  />
+          <XAxis type="number" axisLine={false} tickLine={false} />
+          <YAxis
+            type="category"
+            dataKey="name"
+            axisLine={false}
+            tickLine={false}
+          />
           <Tooltip wrapperStyle={{ width: 150, backgroundColor: "#ccc" }} />
-         
+
           <Bar dataKey="count" fill="#FF8811" barSize={20} />
         </BarChart>
       </ResponsiveContainer>
