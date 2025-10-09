@@ -42,8 +42,23 @@ const Installation = () => {
 
     setInstalledApps((prev) => {
       const sorted = [...prev];
-      if (value === "1") sorted.sort((a, b) => a.size - b.size);
-      else if (value === "2") sorted.sort((a, b) => b.size - a.size);
+
+      const parseDownloads = (str) => {
+        if (str.includes("K")) return parseFloat(str) * 1_000;
+        if (str.includes("M")) return parseFloat(str) * 1_000_000;
+        return parseFloat(str);
+      };
+
+      if (value === "1") {
+        sorted.sort(
+          (a, b) => parseDownloads(a.downloads) - parseDownloads(b.downloads)
+        );
+      } else if (value === "2") {
+        sorted.sort(
+          (a, b) => parseDownloads(b.downloads) - parseDownloads(a.downloads)
+        );
+      }
+
       return sorted;
     });
   };
@@ -90,7 +105,7 @@ const Installation = () => {
               value={sortOrder}
               onChange={handleSortChange}
             >
-              <option value="disable">Sort By Size</option>
+              <option value="disable">Sort By Downloads</option>
               <option value="1">Low to High</option>
               <option value="2">High to Low</option>
             </select>
