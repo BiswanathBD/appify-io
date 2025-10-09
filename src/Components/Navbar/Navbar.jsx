@@ -14,7 +14,7 @@ const Navbar = () => {
 
   const isActive = (path) =>
     location.pathname === path
-      ? "text-purple-600 font-semibold"
+      ? "!text-purple-600 font-semibold"
       : "text-gray-600";
 
   return (

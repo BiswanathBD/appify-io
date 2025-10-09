@@ -64,8 +64,8 @@ const Details = () => {
   return (
     <div className="bg-gray-100 px-4">
       <div className="container mx-auto py-8 border-b border-gray-300">
-        <div className="md:flex gap-8">
-          <div className="bg-white w-fit aspect-square p-4 rounded-lg">
+        <div className="flex gap-8">
+          <div className="bg-white h-fit aspect-square p-4 rounded-lg">
             <img className="w-60" src={app.image} alt="" />
           </div>
 
@@ -81,17 +81,17 @@ const Details = () => {
             <div className="mt-6 flex gap-12">
               <div className="w-fit text-center">
                 <img className="w-6 mx-auto" src={iconDownloads} alt="" />
-                <p className="text-sm text-gray-500 my-2">Downloads</p>
+                <p className="text-sm hidden sm:block text-gray-500 my-2">Downloads</p>
                 <h2 className="text-xl font-bold">{app.downloads}</h2>
               </div>
               <div className="w-fit text-center">
                 <img className="w-6 mx-auto" src={iconRating} alt="" />
-                <p className="text-sm text-gray-500 my-2">Average Ratings</p>
+                <p className="text-sm hidden sm:block text-gray-500 my-2">Average Ratings</p>
                 <h2 className="text-xl font-bold">{app.ratingAvg}</h2>
               </div>
               <div className="w-fit text-center">
                 <img className="w-6 mx-auto" src={iconReview} alt="" />
-                <p className="text-sm text-gray-500 my-2">Total Reviews</p>
+                <p className="text-sm hidden sm:block text-gray-500 my-2">Total Reviews</p>
                 <h2 className="text-xl font-bold">{app.reviews}</h2>
               </div>
             </div>
